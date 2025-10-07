@@ -15,7 +15,8 @@ export enum Author {
   C29H25N3O5,
   Shiroame_Kusu,
   anwarachilles,
-  NatchaLatteOfficial
+  NatchaLatteOfficial,
+  Lexedia,
 }
 
 export const CREDITS: { [key in Author]: ICredit } = {
@@ -132,6 +133,12 @@ export const CREDITS: { [key in Author]: ICredit } = {
     twitter: "https://x.com/NatchaLatteDev",
     github: "https://github.com/NatchaLatte",
   },
+  [Author.Lexedia]: {
+    author: 'Lexedia',
+    pk: 'Lexedia',
+    website: 'https://lexedia.moe',
+    github: 'https://github.com/Lexedia',
+  }
 };
 
 export function getCredit(author: Author): ICredit {
