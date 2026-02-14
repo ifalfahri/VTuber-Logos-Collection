@@ -7,9 +7,10 @@ import { ServiceLogos } from "./ServiceLogos";
 import { VTuberLogos } from "./VtuberLogos";
 import { FindViaTwitterLogos } from "./brands";
 import { FunLogos } from "./FunLogos";
+import { VTuberStyleLogos } from "./VTuberStyleLogos";
 import { IBrand } from "./type";
 
-const BRANDS: IBrand[] = [...CuteLogos, ...ProgrammingVTuberLogos, ...FindViaTwitterLogos, ...ServiceLogos, ...DownloadedLogos, ...CuteVtubingThing, ...VTuberLogos, ...FunLogos, ...ProgrammingVTuberLogos_Windows];
+const BRANDS: IBrand[] = [...CuteLogos, ...ProgrammingVTuberLogos, ...FindViaTwitterLogos, ...ServiceLogos, ...DownloadedLogos, ...CuteVtubingThing, ...VTuberLogos, ...FunLogos, ...ProgrammingVTuberLogos_Windows, ...VTuberStyleLogos];
 
 BRANDS.sort((a, b) => a.name.localeCompare(b.name));
 

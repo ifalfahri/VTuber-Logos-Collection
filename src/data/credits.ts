@@ -17,6 +17,7 @@ export enum Author {
   anwarachilles,
   NatchaLatteOfficial,
   Lexedia,
+  ifalfahri,
 }
 
 export const CREDITS: { [key in Author]: ICredit } = {
@@ -138,6 +139,17 @@ export const CREDITS: { [key in Author]: ICredit } = {
     pk: 'Lexedia',
     website: 'https://lexedia.moe',
     github: 'https://github.com/Lexedia',
+  },
+  [Author.ifalfahri]: {
+    author: "ifalfahri",
+    pk: "ifalfahri",
+    website: "https://ifalf.com",
+    twitter: "https://x.com/ifalfahri",
+    github: "https://github.com/ifalfahri",
+    license: {
+      url: "https://raw.githubusercontent.com/ifalfahri/VTuberStyleLogos/main/LICENSE",
+      name: "CC BY-NC-SA 4.0",
+    },
   }
 };
 
